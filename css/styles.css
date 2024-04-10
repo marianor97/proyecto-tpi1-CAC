@@ -44,9 +44,18 @@ nav {
   text-decoration: none; /* Quita la subraya del enlace */
 }
 
-#banner {
-  background-image: url(../img/Banner.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 600px;
+.banner_item{
+  max-width: 100%;
+  overflow: hidden;
+
+}
+.banner-mobile{
+  width: 100%;
+  display: none;
+  height: auto;
+}
+.banner-desktop{
+  display: block;
+  width: 100%;
+  height: auto;
 }
