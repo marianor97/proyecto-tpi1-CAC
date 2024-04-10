@@ -40,32 +40,25 @@ nav {
 
 }
 
-/* Estilos generales para las imágenes */
-.banner-item {
-  max-width: 100%; /* Asegura que el contenedor se ajuste al ancho máximo */
-  overflow: hidden; /* Oculta el contenido que desborda del contenedor */
-}
 
-/* Estilos para la imagen de escritorio */
-.banner-desktop {
-  display: block; /* Muestra la imagen de escritorio */
-  width: 100%; /* Ajusta la anchura al 100% del contenedor */
-  height: auto; /* Mantiene la proporción de aspecto */
-}
-
-/* Estilos para la imagen móvil */
-.banner-mobile {
-  display: none; /* Oculta la imagen móvil por defecto */
-  width: 100%; /* Ajusta la anchura al 100% del contenedor */
-  height: auto; /* Mantiene la proporción de aspecto */
-}
-
-/* Estilos específicos para pantallas pequeñas */
-@media screen and (max-width: 400px) {
+/* Estilos para ocultar la imagen de escritorio en dispositivos móviles */
+@media only screen and (max-width: 768px) {
   .banner-desktop {
-    display: none; /* Oculta la imagen de escritorio */
+    display: none; /* Ocultar la imagen de escritorio en dispositivos con un ancho máximo de 768px */
   }
   .banner-mobile {
-    display: block; /* Muestra la imagen móvil */
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+}
+@media only screen and (min-width:769px) {
+  .banner-desktop{
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  .banner-mobile{
+    display: none;
   }
 }
