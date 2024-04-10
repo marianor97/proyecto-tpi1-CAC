@@ -1,4 +1,48 @@
+:root{
+  --bg-color:#181419;
+  --primary-color: #9f3647;
+  --secondary-color:#ffc098;
+  --third-color:#db4648;
+  --third-bis-color:#db4648;
+  --bg-input-color:#f31572;
+  
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 header{
-    background-color: white;
-    
+
+  margin: 20px;
+  padding: 10px;
+  font-family: "Righteous", sans-serif;
+
+  }
+  
+  a{
+    text-decoration: none;
+  }
+nav{
+  display: flex;
 }
+.navigation li{
+  padding: 10px;
+  margin-right:10px;
+}
+
+.navigation{
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+#banner{
+  background-image: url(../img/Banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
