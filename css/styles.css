@@ -46,18 +46,6 @@ body {
   text-overflow: inherit;
 }
 
-.gym-couple,
-.monafit-family {
-  display: inline;
-  width: 100%;
-  height:auto;
-}
-#gymandmonafit{
-  display: inline-block;
-  width: 50%;
-  height: auto;
-}
-
 /*Estilos banner y imagenes*/
 @media screen and (max-width: 500px) {
   .banner-desktop {
