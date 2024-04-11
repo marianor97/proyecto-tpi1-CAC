@@ -68,7 +68,7 @@ body {
 }
 
 /* Estilos para el formulario */
-#main-form{
+#main-form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +82,7 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 
     /* Estilos para el título del formulario */
-    h2 {
+    #h2-form-a {
       text-align: center;
     }
 
@@ -91,7 +91,7 @@ body {
       margin-bottom: 25px;
 
       /* Estilos para las etiquetas */
-      label {
+      #label-form-a {
         display: block;
         margin-bottom: 10px;
       }
