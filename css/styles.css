@@ -16,7 +16,7 @@
 
 /*Color de fondo*/
 body {
-  padding-top: 60px;
+  padding: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -70,7 +70,7 @@ body {
 
 /* Estilos para el formulario */
 #main-form {
-  padding-top: 80px;
+  padding-top: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
