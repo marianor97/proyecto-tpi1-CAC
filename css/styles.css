@@ -68,8 +68,8 @@ body {
     display: none;
   }
 }
-#gymandmonafit{
-  display: inline;
+#gymandmonafit .gym-couple{
+  display: inline-block;
 }
 /* Estilos para el formulario */
 #main-form {
