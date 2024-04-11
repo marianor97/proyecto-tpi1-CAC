@@ -1,4 +1,7 @@
 main {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,12 +21,12 @@ h2 {
 
 /* Estilos para los controles del formulario */
 .form-control {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 input[type="text"],
@@ -31,15 +34,15 @@ input[type="password"],
 select {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 1px solid #000000;
+  border-radius: 6px;
 }
 
 input[type="date"] {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 /* Estilos para los mensajes de error */
@@ -56,9 +59,9 @@ button[type="submit"] {
   background-color: #007bff;
   border: none;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.5s ease;
 }
 
 button[type="submit"]:hover {
@@ -77,5 +80,5 @@ button[type="submit"]:hover {
 }
 
 .form-help a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
