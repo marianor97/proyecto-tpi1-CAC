@@ -16,6 +16,8 @@
 
 /*Color de fondo*/
 body {
+  padding-left: 10px;
+  padding-right: 10px;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
