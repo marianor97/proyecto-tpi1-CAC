@@ -155,3 +155,10 @@ button[type="submit"]:hover {
 .form-help a:hover {
   text-decoration: none;
 }
+/*FOTO PARA FONDO ASOCIATE*/
+#main-form{
+  background-image: url(../img/gym-bg-1-ia.jpeg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 2000px rgba(84, 84, 84, 0.5);
+}
