@@ -53,7 +53,7 @@ body {
   height:auto;
 }
 #gymandmonafit{
-  display: inline;
+  display: inline-block;
   width: 50%;
   height: auto;
 }
