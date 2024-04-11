@@ -67,7 +67,7 @@ body {
   }
 }
 /*Estilos section monafit-family*/
-#monafit-family section {
+#monafit-family section div {
   display: inline;
 }
 /* Estilos para el formulario */
