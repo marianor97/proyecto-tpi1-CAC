@@ -68,7 +68,7 @@ body {
 }
 /*Estilos section monafit-family*/
 #monafit-family section {
-  display: inline-block;
+  display: inline;
 }
 /* Estilos para el formulario */
 main {
