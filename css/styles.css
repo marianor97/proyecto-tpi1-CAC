@@ -71,17 +71,21 @@ body {
   display: inline;
 }
 /* Estilos para el formulario */
+#main-form {
+  padding-top: 20px;
+=======
 main {
+>>>>>>> 5c6ab6cae3b66ed379cbbca985aeeb0c502daad3
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 #form-wrapper {
   background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 10px;
+  border-radius: 6px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -91,12 +95,12 @@ h2 {
 
 /* Estilos para los controles del formulario */
 .form-control {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 input[type="text"],
@@ -135,7 +139,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #ff0d97;
 }
 
 /* Estilos para el enlace de ayuda */
@@ -146,7 +150,7 @@ button[type="submit"]:hover {
 
 .form-help a {
   text-decoration: none;
-  color: #007bff;
+  color: #ff0d97;
 }
 
 .form-help a:hover {
