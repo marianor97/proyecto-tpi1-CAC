@@ -46,8 +46,12 @@ body {
   text-overflow: inherit;
 }
 
-#gymandmonafit{
-  flex-direction: column ;
+.gym-couple,
+.manafit-family {
+  display: inline-block;
+  vertical-align: top; 
+  width: calc(50% - 10px); 
+  margin: 0 5px; 
 }
 
 /*Estilos banner y imagenes*/
