@@ -71,6 +71,7 @@ body {
 
 /* Estilos para el formulario */
 #main-form {
+  padding-top: 140px;
   align-content: center;
   display: flex;
   justify-content: center;
