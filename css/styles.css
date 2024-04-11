@@ -46,6 +46,10 @@ body {
   text-overflow: inherit;
 }
 
+#gymandmonafit{
+  justify-content: space-around;
+}
+
 /*Estilos banner y imagenes*/
 @media screen and (max-width: 500px) {
   .banner-desktop {
