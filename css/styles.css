@@ -66,16 +66,12 @@ body {
     display: none;
   }
 }
-/*Estilos section monafit-family*/
-#monafit-family{
-  display: inline;
-}
+
 /* Estilos para el formulario */
 #main-form {
   padding-top: 20px;
-=======
+}
 main {
->>>>>>> 5c6ab6cae3b66ed379cbbca985aeeb0c502daad3
   display: flex;
   justify-content: center;
   align-items: center;
