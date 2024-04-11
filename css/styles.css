@@ -47,7 +47,7 @@ body {
 }
 
 #gymandmonafit{
-  justify-content: space-around;
+  flex-direction: column ;
 }
 
 /*Estilos banner y imagenes*/
