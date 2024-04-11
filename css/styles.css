@@ -49,6 +49,9 @@ body {
 .gym-couple,
 .monafit-family {
   display: inline;
+  width: 50%%;
+  height:auto;
+
 }
 
 /*Estilos banner y imagenes*/
