@@ -68,7 +68,7 @@ body {
 }
 
 /* Estilos para el formulario */
-main {
+#main-form{
   display: flex;
   justify-content: center;
   align-items: center;
