@@ -68,13 +68,14 @@ body {
 }
 
 /* Estilos para el formulario */
-main {
+#main-form {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
+/* Estilos para el contenedor del formulario */
 #form-wrapper {
   background-color: #fff;
   padding: 20px;
@@ -82,7 +83,8 @@ main {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+/* Estilos para el título del formulario */
+#h2-form-a {
   text-align: center;
 }
 
@@ -91,11 +93,13 @@ h2 {
   margin-bottom: 25px;
 }
 
-label {
+/* Estilos para las etiquetas */
+#label-form-a {
   display: block;
   margin-bottom: 10px;
 }
 
+/* Estilos para los campos de texto y contraseña */
 input[type="text"],
 input[type="password"],
 select {
@@ -105,6 +109,7 @@ select {
   border-radius: 6px;
 }
 
+/* Estilos para el campo de fecha */
 input[type="date"] {
   width: 100%;
   padding: 10px;
@@ -119,11 +124,11 @@ input[type="date"] {
   margin-top: 5px;
 }
 
-/* Estilos para el botón */
+/* Estilos para el botón de enviar */
 button[type="submit"] {
   width: 100%;
   padding: 10px;
-  background-color: #FF0D97;
+  background-color: #ff0d97;
   border: none;
   color: #fff;
   border-radius: 6px;
@@ -141,6 +146,7 @@ button[type="submit"]:hover {
   margin-top: 15px;
 }
 
+/* Estilos para el enlace */
 .form-help a {
   text-decoration: none;
   color: #007bff;
