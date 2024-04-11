@@ -50,8 +50,6 @@ body {
 .monafit-family {
   display: inline;
   vertical-align: top; 
-  width: calc(50% - 10px); 
-  margin: 0 5px; 
 }
 
 /*Estilos banner y imagenes*/
