@@ -68,7 +68,9 @@ body {
     display: none;
   }
 }
-
+#gymandmonafit{
+  display: inline;
+}
 /* Estilos para el formulario */
 #main-form {
   padding-top: 140px;
