@@ -6,7 +6,7 @@
 }
 
 :root {
-  --bg-color: #ffffff;
+  --bg-color: #fff;
   --primary-color: #9f3647;
   --secondary-color: #ffc098;
   --third-color: #db4648;
@@ -27,21 +27,20 @@ body {
 /*Estilos barra de navegación*/
 .navigation div {
   display: flex;
-  margin: 20px;
-  padding: 0;
   font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
 
 .navigation-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
 }
 
 .navigation-list ul li {
   margin-right: 2vw;
-  padding: 0px;
+  padding: 20px;
   list-style: none;
   text-overflow: inherit;
 }
@@ -51,10 +50,12 @@ body {
   .banner-desktop {
     display: none;
   }
+
   .banner-mobile {
     display: flex;
     width: 100%;
     height: auto;
+    border-radius: 5%;
   }
 }
 
@@ -63,34 +64,102 @@ body {
     display: flex;
     width: 100%;
     height: auto;
+    border-radius: 5%;
   }
+
   .banner-mobile {
     display: none;
+    border-radius: 5%;
   }
 }
 
-@media screen and (max-width: 900px) {
-  .gym-couple {
-    display: flex;
+/*Estilos segunda sección*/
+@media screen and (max-width: 1300px) {
+  .gymmonafit {
+    display: block;
     width: 100%;
     height: auto;
     flex-direction: column;
+    flex-wrap: nowrap;
   }
+   h2{
+    display: block;
+    flex-direction: column;
+   }
 }
 
 .gymmonafit {
+  color: #fff;
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  background-color: #00e1ff;
-  align-content: space-around;
+  background-color: rgba(212, 115, 115, 0);
+  align-content: center;
   width: 100%;
   height: auto;
-  .gym-couple{
-    border-radius: 0.5cm;
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 8vw;
+    background-color: rgb(46, 46, 46);
+    border-radius: 5%;
+    margin-left: 10px;
+  }
+
+  span {
+    color: #FF0D97;
+  }
+
+  img {
+    border-radius: 5%;
   }
 }
 
+.description-gym p {
+  display: block;
+  padding: 20px;
+  background-color: #FF0D97;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2vw;
+  text-align: center;
+  border-radius: 3cm;
+  color: #fff;
+
+  span {
+    color: white;
+    font-weight: 900;
+  }
+
+  a {
+    button {
+      border: none;
+      background-color: #fff;
+      color: #FF0D97;
+      font-family: "Righteous", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+      font-size: 2vw;
+      text-align: center;
+      border-radius: 3vw;
+      padding: 1vw;
+    }
+  }
+
+}
+
+
+.moanfit-family h2 {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Estilos para el formulario */
 #main-form {
@@ -177,8 +246,9 @@ button[type="submit"]:hover {
 .form-help a:hover {
   text-decoration: none;
 }
+
 /*FOTO PARA FONDO ASOCIATE*/
-#main-form{
+#main-form {
   background-image: url(../img/gym-bg-1-ia.jpeg);
   background-size: cover;
   background-position: center;
