@@ -69,13 +69,28 @@ body {
   }
 }
 
+@media screen and (max-width: 900px) {
+  .gym-couple {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+}
+
 .gymmonafit {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   background-color: #00e1ff;
-  align-content: space-between;
+  align-content: space-around;
+  width: 100%;
+  height: auto;
+  .gym-couple{
+    border-radius: 0.5cm;
+  }
 }
+
 
 /* Estilos para el formulario */
 #main-form {
