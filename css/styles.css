@@ -73,7 +73,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  background-color: #000000;
+  background-color: #00e1ff;
   align-content: space-between;
 }
 
