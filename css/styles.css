@@ -43,6 +43,19 @@ body {
   padding: 20px;
   list-style: none;
   text-overflow: inherit;
+  button {
+      border: none;
+      background-color: #FF0D97;
+      color: #fdfdfd;
+      font-family: "Righteous", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+      font-size: 1vw;
+      text-align: center;
+      border-radius: 3vw;
+      padding: 1vw;
+  }
 }
 
 /*Estilos banner y imagenes*/
@@ -103,32 +116,36 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 8vw;
+    font-size: 6vw;
     background-color: rgb(46, 46, 46);
-    border-radius: 5%;
+    border-radius: 1vw;
     margin-left: 10px;
-  }
+    }
 
   span {
     color: #FF0D97;
   }
 
   img {
-    border-radius: 5%;
+    border-radius: 1vw;
+    opacity: 0.95;
+    height: 50vh;
   }
 }
 
 .description-gym p {
   display: block;
   padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background-color: #FF0D97;
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size: 2vw;
+  font-size: 1vw;
   text-align: center;
-  border-radius: 3cm;
+  border-radius: 1vw;
   color: #fff;
 
   span {
@@ -145,7 +162,7 @@ body {
       font-optical-sizing: auto;
       font-weight: 800;
       font-style: normal;
-      font-size: 2vw;
+      font-size: 1vw;
       text-align: center;
       border-radius: 3vw;
       padding: 1vw;
@@ -253,4 +270,9 @@ button[type="submit"]:hover {
   background-size: cover;
   background-position: center;
   box-shadow: inset 0 0 0 2000px rgba(84, 84, 84, 0.5);
+}
+
+footer{
+  background-color: rgba(46, 46, 46);
+  padding-top: 150px;
 }
