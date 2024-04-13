@@ -68,9 +68,14 @@ body {
     display: none;
   }
 }
-#gymandmonafit .gym-couple{
-  display: inline-block;
+
+.gymmonafit {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #000000;
 }
+
 /* Estilos para el formulario */
 #main-form {
   padding-top: 100px;
