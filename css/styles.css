@@ -74,6 +74,7 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   background-color: #000000;
+  align-content: space-between;
 }
 
 /* Estilos para el formulario */
