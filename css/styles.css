@@ -20,8 +20,8 @@
 body {
   padding-left: 10px;
   padding-right: 10px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
   font-style: normal;
   background-color: var(--bg-color);
 }
@@ -31,7 +31,7 @@ body {
 .navigation div {
   display: flex;
   font-family: "Comfortaa", sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-style: normal;
 }
 
@@ -44,7 +44,7 @@ body {
 
 .navigation-list ul li {
   margin-right: 2vw;
-  padding: 20px;
+  padding: 10px;
   list-style: none;
   color: #ff0d97;
 }
@@ -292,6 +292,38 @@ button[type=submit]:hover {
   background-image: url(../img/bg-form.jpg);
   background-size: cover;
   background-position: center;
+}
+
+/*Estilos NUESTROS ENTRENAMIENTOS SECCIÓN 1*/
+.musculacion {
+  background-color: rgba(46,46,46);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2{
+    padding-left: 70px;
+    font-size: 50px;
+    color: #ff0d97;
+  }
+  p{
+    padding: 70px;
+    color: #fff;
+  }
+}
+.peso-libre {
+  background-color: #f31572;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2{
+    padding-left: 70px;
+    font-size: 50px;
+    color: rgba(46,46,46);
+  }
+  p{
+    padding: 70px;
+    color: #fff;
+  }
 }
 
 footer {
