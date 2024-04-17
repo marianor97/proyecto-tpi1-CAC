@@ -81,40 +81,68 @@ body {
     display: none;
     border-radius: 5%;
   }
+}
   /*Estilos segunda sección*/
-  .gymmonafit {
-    color: #fff;
-    margin-top: 20px;
+
+  /*Estilos para el h2 y imagen gym couple*/
+
+  @media screen and (max-width: 500px){
+    #gymmonafit {
+      display: block;
+      width: 100%;
+      height: auto;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    #item-1{
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    #item-2{
+      h2{
+        font-family: "Montserrat", sans-serif;
+        font-size: 50px;
+        span{
+          color: #ff0d97;
+        }
+      }
+    }
+  }
+
+@media screen and (min-width:501px){
+  #gymmonafit{
     display: flex;
-    flex-direction: row;
-    background-color: rgba(212, 115, 115, 0);
-    align-content: center;
     width: 100%;
     height: auto;
-  }
-  .gymmonafit h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 6vw;
-    border-radius: 1vw;
-    margin-left: 10px;
-    color: rgb(46, 46, 46);
-  }
-  .gymmonafit span {
-    color: #ff0d97;
-  }
-  .gymmonafit img {
-    border-radius: 1vw;
-    opacity: 0.95;
-    width: 100%;
-    height: auto;
-  }
-  .moanfit-family h2 {
-    display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
+    
   }
+#item-1{
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+#item-2{
+  h2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 7.5vw;
+    span{
+      color: #ff0d97;
+    }
+  
+  }
+} 
+}
+  
   .description-gym p {
     display: block;
     padding: 20px;
@@ -125,24 +153,24 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 1.5vw;
+    font-size: 15px;
     text-align: center;
     border-radius: 1vw;
     color: #fff;
   }
   .description-gym p span {
     color: white;
-    font-weight: 900;
+    font-weight: 1000;
   }
   .description-gym p a button {
     border: none;
     background-color: #fff;
     color: #ff0d97;
-    font-family: "Righteous", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    font-size: 1vw;
+    font-size: 15px;
     text-align: center;
     border-radius: 3vw;
     padding: 1vw;
@@ -237,4 +265,3 @@ body {
     background-color: rgb(46, 46, 46);
     padding-top: 150px;
   }
-}/*# sourceMappingURL=styles.css.map */
