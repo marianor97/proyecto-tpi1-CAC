@@ -90,13 +90,13 @@ body {
     color: #fff;
     margin-top: 20px;
     display: flex;
+    flex-direction: row;
     background-color: rgba(212, 115, 115, 0);
     align-content: center;
     width: 100%;
     height: auto;
 
     h2 {
-      text-align: center;
       font-family: "Montserrat", sans-serif;
       font-weight: bold;
       font-style: normal;
@@ -117,6 +117,12 @@ body {
       height: auto;
     }
   }
+  .moanfit-family h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
   .description-gym p {
     display: block;
     padding: 20px;
@@ -127,7 +133,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 1vw;
+    font-size: 1.5vw;
     text-align: center;
     border-radius: 1vw;
     color: #fff;
