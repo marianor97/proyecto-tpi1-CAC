@@ -63,30 +63,6 @@ body {
   padding: 1vw;
 }
 
-@media  screen and (max-width: 600px) {
-  .navigation-list{
-    display: none;
-    padding: 50px;
-  }
-  .navigation-list.show {
-    display: block;
-}
-
-.toggle-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-}
-
-.bar {
-    width: 25px;
-    height: 3px;
-    background-color: #ff0d97;
-    margin: 5px 0;
-}
-}
-
 /*Estilos banner y imagenes*/
 @media screen and (max-width: 500px) {
   .banner-desktop {
