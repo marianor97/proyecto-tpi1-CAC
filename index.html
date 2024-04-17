@@ -7,15 +7,18 @@
   <!--FUENTES-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Belanosima:wght@400;600;700&family=Comfortaa:wght@300..700&family=Montserrat:wght@900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Righteous&family=Rubik+Mono+One&family=Tilt+Warp&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Belanosima:wght@400;600;700&family=Comfortaa:wght@300..700&family=Montserrat:wght@900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Righteous&family=Rubik+Mono+One&family=Tilt+Warp&display=swap"
+    rel="stylesheet">
   <!--Hoja de Estilos CSS-->
   <link rel="stylesheet" href="./css/styles.css" />
   <title>Inicio</title>
 </head>
 
 <body class="index">
-  <header clas="header">
-    <nav class="navigation">
+  
+  <header class="header">
+   
       <div class="navigation-list">
         <ul class="navigation-list">
           <li>
@@ -29,6 +32,13 @@
             <a href="./statics/asociate.html"><button>¡INSCRÍBETE YA!</button></a>
           </li>
         </ul>
+        <div class="navigation-toggle">
+          <button class="toggle-button" onclick="toggleMenu()">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+          </button>
+      </div>
       </div>
     </nav>
   </header>
@@ -51,8 +61,6 @@
             ¡UNETE A LA FAMILIA <span>MONAFIT!</span>
           </h2>
         </div>
-
-         
       </div>
       <div class="description-gym">
         <p class="description-gym">
@@ -62,12 +70,12 @@
           en Monafit encontrarás el apoyo y los recursos que necesitas para
           tener éxito. Únete a nuestra familia hoy mismo y comienza tu viaje
           hacia una vida más saludable y activa. <br><br> <span>¡Bienvenido a Monafit,
-          donde el fitness se encuentra con la comunidad!</span> <br>
+            donde el fitness se encuentra con la comunidad!</span> <br>
           <br>
           <a href="./statics/asociate.html"><button class="button-insription">¡INSCRÍBETE AHORA!</button></a>
 
         </p>
-        
+
       </div>
     </section>
   </main>
@@ -89,6 +97,13 @@
     </ul>
 
   </footer>
+  <script>
+    function toggleMenu() {
+    var navigationList = document.getElementById("navigation-list");
+    navigationList.classList.toggle("show");
+}
+
+  </script>
 </body>
 
 </html>
