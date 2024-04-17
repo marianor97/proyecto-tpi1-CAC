@@ -10,34 +10,25 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Belanosima:wght@400;600;700&family=Comfortaa:wght@300..700&family=Montserrat:wght@900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Righteous&family=Rubik+Mono+One&family=Tilt+Warp&display=swap"
     rel="stylesheet">
+  <link rel="icon" href="./img/logo.ico" type="image/x-icon">
   <!--Hoja de Estilos CSS-->
   <link rel="stylesheet" href="./css/styles.css" />
   <title>Inicio</title>
 </head>
 
 <body class="index">
-  
+
   <header class="header">
+    <nav class="navigation">
       <div class="navigation-list">
         <ul class="navigation-list">
-          <li>
-            <a href="./index.html"><!--LOGO--></a>
-          </li>
-          <li><a href="./index.html">INICIO</a></li>
+          <li><a href="../index.html">INICIO</a></li>
           <li><a href="./statics/sobre-nosotros.html">NUESTROS ENTRENAMIENTOS</a></li>
           <li><a href="./statics/planes.html">NUESTROS PLANES</a></li>
           <li><a href="./statics/sedes.html">ENCONTRÁ TU SEDE</a></li>
-          <li>
-            <a href="./statics/asociate.html"><button>¡INSCRÍBETE YA!</button></a>
-          </li>
+          <li><a href="./statics/asociate.html"><button>¡INSCRÍBETE YA!</button></a></li>
         </ul>
-        <div class="navigation-toggle">
-          <button class="toggle-button" onclick="toggleMenu()">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-          </button>
-      </div>
+
       </div>
     </nav>
   </header>
@@ -98,9 +89,9 @@
   </footer>
   <script>
     function toggleMenu() {
-    var navigationList = document.getElementById("navigation-list");
-    navigationList.classList.toggle("show");
-}
+      var navigationList = document.getElementById("navigation-list");
+      navigationList.classList.toggle("show");
+    }
 
   </script>
 </body>
