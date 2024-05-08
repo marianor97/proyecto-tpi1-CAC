@@ -54,7 +54,7 @@ body {
 }
 
 .navigation-list ul li button {
-  color: rbga(46,46,46);
+  color: rbga(46, 46, 46);
   border: none;
   background-color: #ff0d97;
   font-family: "Comfortaa", sans-serif;
@@ -68,7 +68,7 @@ body {
 }
 
 /*Estilos banner y imagenes*/
-@media screen and (max-width: 500px) {
+@media (max-width: 575.9px) {
   .banner-desktop {
     display: none;
   }
@@ -77,16 +77,30 @@ body {
     display: flex;
     width: 100%;
     height: auto;
-    border-radius: 5%;
+    border-radius: 1px;
   }
 }
 
-@media screen and (min-width: 501px) {
+@media (min-width: 576px) {
   .banner-desktop {
+    display: none;
+  }
+
+  .banner-mobile {
     display: flex;
     width: 100%;
     height: auto;
-    border-radius: 5%;
+    border-radius: 1px;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner-desktop {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
   }
 
   .banner-mobile {
@@ -298,27 +312,52 @@ button[type=submit]:hover {
   background-position: center;
 }
 
+
 /*Estilos NUESTROS ENTRENAMIENTOS SECCIÓN 1*/
+
+#entrenamientos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 5vw;
+    color: rgba(46, 46, 46);
+    span{
+      text-align: center;
+      color: #ff0d97;
+    }
+
+  }
+}
+
 .musculacion {
   padding: 0;
   margin: 0;
-  background-color: rgba(46,46,46);
+  background-color: rgba(46, 46, 46);
   display: flex;
   justify-content: center;
   align-items: center;
-  h2{
+
+  h2 {
     padding-left: 70px;
     font-size: 50px;
     color: #ff0d97;
   }
-  p{
+
+  p {
     padding: 70px;
     color: #fff;
   }
-  img{
+
+  img {
     height: auto;
   }
 }
+
 .peso-libre {
   padding: 0;
   margin: 0;
@@ -326,254 +365,118 @@ button[type=submit]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  h2{
-    padding-left: 70px;
-    font-size: 50px;
-    color: rgba(46,46,46);
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 5vw;
+    color: rgba(46, 46, 46);
   }
-  p{
+
+  p {
     padding: 70px;
     color: #fff;
   }
 }
+
 .crossfit {
   padding: 0;
   margin: 0;
-  background-color: rgba(46,46,46);
+  background-color: rgba(46, 46, 46);
   display: flex;
   justify-content: center;
   align-items: center;
-  h2{
+
+  h2 {
     padding-left: 70px;
     font-size: 50px;
     color: #ff0d97;
   }
-  p{
+
+  p {
     padding: 70px;
     color: #fff;
   }
-  img{
+
+  img {
     height: auto;
   }
 }
+
 .funcional {
   padding: 0;
   margin: 0;
-  background-color: rgba(46,46,46);
+  background-color: #ff0d97;
   display: flex;
   justify-content: center;
   align-items: center;
-  h2{
+
+  h2 {
     padding-left: 70px;
     font-size: 50px;
-    color: #ff0d97;
+    color: rgba(46, 46, 46);
     text-align: center;
+    justify-items: center;
   }
-  p{
+
+  p {
     padding: 70px;
     color: #fff;
   }
-  img{
+
+  img {
+    margin: 0;
+    padding: 0;
     height: auto;
   }
 }
+
 .boxeo {
   padding: 0;
   margin: 0;
-  background-color: rgba(46,46,46);
+  background-color: rgba(46, 46, 46);
   display: flex;
   justify-content: center;
   align-items: center;
-  h2{
+
+  h2 {
     padding-left: 70px;
     font-size: 50px;
     color: #ff0d97;
   }
-  p{
+
+  p {
     padding: 70px;
     color: #fff;
   }
-  img{
+
+  img {
     height: auto;
   }
 }
+
 .yoga {
   padding: 0;
   margin: 0;
-  background-color: rgba(46,46,46);
+  background-color: #ff0d97;
   display: flex;
   justify-content: center;
   align-items: center;
-  h2{
+
+  h2 {
     padding-left: 70px;
     font-size: 50px;
-    color: #ff0d97;
+    color: rgba(46, 46, 46);
   }
-  p{
+
+  p {
     padding: 70px;
     color: #fff;
   }
-  img{
+
+  img {
     height: auto;
   }
-}
-@media screen and (max-width:1000px){
-  .peso-libre {
-    width: 100%;
-    height: auto;
-    background-color: #f31572;
-    display: inline-block;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    h2{
-      padding-left: 70px;
-      font-size: 50px;
-      color: #ff0d97;
-      text-align: center;
-    }
-    p{
-      padding: 70px;
-      color: #fff;
-      text-align: center;
-    }
-    img{
-      width: 100%;
-      height: auto;
-    }
-}}
-@media screen and (max-width:1000px){
-  .musculacion {
-    width: 100%;
-    height: auto;
-    background-color: rgba(46,46,46);
-    display: inline-block;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    h2{
-      padding-left: 70px;
-      font-size: 50px;
-      color: #ff0d97;
-      text-align: center;
-    }
-    p{
-      padding: 70px;
-      color: #fff;
-      text-align: center;
-    }
-    img{
-      width: 100%;
-      height: auto;
-    }
-}}
-@media screen and (max-width:1000px){
-  .crossfit {
-    width: 100%;
-    height: auto;
-    background-color: rgba(46,46,46);
-    display: inline-block;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    h2{
-      padding-left: 70px;
-      font-size: 50px;
-      color: #ff0d97;
-      text-align: center;
-    }
-    p{
-      padding: 70px;
-      color: #fff;
-      text-align: center;
-    }
-    img{
-      width: 100%;
-      height: auto;
-    }
-}}
-@media screen and (max-width:1000px){
-  .funcional {
-    width: 100%;
-    height: auto;
-    background-color: rgba(46,46,46);
-    display: inline-block;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    h2{
-      padding-left: 70px;
-      font-size: 50px;
-      color: #ff0d97;
-      text-align: center;
-    }
-    p{
-      padding: 70px;
-      color: #fff;
-      text-align: center;
-    }
-    img{
-      width: 100%;
-      height: auto;
-    }
-}}
-@media screen and (max-width:1000px){
-  .boxeo {
-    width: 100%;
-    height: auto;
-    background-color: rgba(46,46,46);
-    display: inline-block;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    h2{
-      padding-left: 70px;
-      font-size: 50px;
-      color: #ff0d97;
-      text-align: center;
-    }
-    p{
-      padding: 70px;
-      color: #fff;
-      text-align: center;
-    }
-    img{
-      width: 100%;
-      height: auto;
-    }
-}}
-@media screen and (max-width:1000px){
-  .yoga {
-    width: 100%;
-    height: auto;
-    background-color: rgba(46,46,46);
-    display: inline-block;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    h2{
-      padding-left: 70px;
-      font-size: 50px;
-      color: #ff0d97;
-      text-align: center;
-    }
-    p{
-      padding: 70px;
-      color: #fff;
-      text-align: center;
-    }
-    img{
-      width: 100%;
-      height: auto;
-    }
-}}
-footer {
-  background-color: rgb(46, 46, 46);
-  padding-top: 150px;
 }
