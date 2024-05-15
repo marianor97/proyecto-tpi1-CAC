@@ -332,32 +332,21 @@ body {
 }
 
 /* Estilos para el formulario */
-#main-form {
-  padding-top: 100px;
+#form-wrapper {
+  padding: 50px;
   align-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
 }
 
-#form-wrapper {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 6px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-h2 {
-  text-align: center;
-}
 
 /* Estilos para los controles del formulario */
 .form-control {
-  margin-bottom: 10px;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+
 }
 
 label {
@@ -419,21 +408,15 @@ button[type=submit]:hover {
   text-decoration: none;
 }
 
-/*FOTO PARA FONDO ASOCIATE*/
-#main-form {
-  background-image: url(../img/bg-form.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
 
 /*Estilos NUESTROS ENTRENAMIENTOS SECCIÓN 1*/
-@media (max-width: 500px){
+@media (max-width: 500px) {
   #entrenamientos {
     width: 100%;
     display: block;
     justify-content: center;
     align-items: center;
+
     h1 {
       text-align: center;
       font-family: "Montserrat", sans-serif;
@@ -442,26 +425,30 @@ button[type=submit]:hover {
       font-style: normal;
       font-size: 5vw;
       color: rgba(46, 46, 46);
-  
+
       span {
         text-align: center;
         color: #ff0d97;
       }
-  
+
     }
-    p{
+
+    p {
       text-align: center;
     }
   }
 }
+
 #entrenamientos {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  div{
-    flex:1;
+
+  div {
+    flex: 1;
 
   }
+
   h1 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -477,7 +464,8 @@ button[type=submit]:hover {
     }
 
   }
-  p{
+
+  p {
     text-align: center;
   }
 }
@@ -1154,5 +1142,90 @@ button[type=submit]:hover {
 
   img {
     height: auto;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(46, 46, 46);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color: #ff0d97;
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+#footer-text {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#footer-text a:hover {
+ color: white;
+ transform: scale(1.4);
+ transition: 1.2s ease;
+}
+
+#social img:hover{
+  transform: scale(1.2);
+  transition: 0.5s ease;
+}
+/* CSS */
+#banner {
+  animation-name: backInLeft; /* Nombre de la animación */
+  animation-duration: 1s; /* Duración de la animación en segundos */
+}
+
+/* Definición de la animación */
+@keyframes backInLeft {
+  from {
+    opacity: 0; /* Opacidad inicial */
+    transform: translateX(-100px); /* Transformación inicial */
+  }
+  to {
+    opacity: 1; /* Opacidad final */
+    transform: translateX(0); /* Transformación final */
+  }
+}
+
+.banner-item{
+  animation-name: backInLeft; /* Nombre de la animación */
+  animation-duration: 1s; /* Duración de la animación en segundos */
+}
+
+/* Definición de la animación */
+@keyframes backInLeft {
+  from {
+    opacity: 0; /* Opacidad inicial */
+    transform: translateX(-100px); /* Transformación inicial */
+  }
+  to {
+    opacity: 1; /* Opacidad final */
+    transform: translateX(0); /* Transformación final */
+  }
+}
+
+#couple-2{
+  animation-name: backInLeft; /* Nombre de la animación */
+  animation-duration: 1s; /* Duración de la animación en segundos */
+}
+
+/* Definición de la animación */
+@keyframes backInLeft {
+  from {
+    opacity: 0; /* Opacidad inicial */
+    transform: translateX(-100px); /* Transformación inicial */
+  }
+  to {
+    opacity: 1; /* Opacidad final */
+    transform: translateX(0); /* Transformación final */
   }
 }
