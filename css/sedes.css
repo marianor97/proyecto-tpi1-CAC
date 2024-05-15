@@ -126,3 +126,11 @@ body {
   font-size: 3vw;
   color: #ff0d97;
 }
+.tittle{
+  button{
+    border: none;
+    color: white;
+    background-color: #ff0d97;
+    border-radius: 10px;
+  }
+}
