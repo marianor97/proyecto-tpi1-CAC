@@ -29,19 +29,16 @@ body {
 /*Estilos barra de navegación PANTALLAS GRANDES*/
 
 @media (min-width: 800px) {
-
   #banner {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10 px;
-
   }
 
   .navigation-phone {
     display: none;
   }
-
 
   .navigation div {
     background: rgba(46, 46, 46);
@@ -121,7 +118,6 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-
   }
 
   #item-1 {
@@ -142,12 +138,11 @@ body {
       span {
         color: #ff0d97;
       }
-
     }
   }
 }
 
-@media (max-width:799px) {
+@media (max-width: 799px) {
   .navigation-list {
     display: none;
   }
@@ -171,7 +166,6 @@ body {
   #menuToggle a:hover {
     color: #ff0d97;
   }
-
 
   #menuToggle input {
     display: block;
@@ -198,9 +192,8 @@ body {
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-      opacity 0.55s ease;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
 
   #menuToggle span:first-child {
@@ -211,18 +204,18 @@ body {
     transform-origin: 0% 100%;
   }
 
-  #menuToggle input:checked~span {
+  #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #ff0d97;
   }
 
-  #menuToggle input:checked~span:nth-last-child(3) {
+  #menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
 
-  #menuToggle input:checked~span:nth-last-child(2) {
+  #menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
 
@@ -238,7 +231,7 @@ body {
     /* to stop flickering of text in safari */
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
 
   #menu li {
@@ -246,7 +239,7 @@ body {
     font-size: 22px;
   }
 
-  #menuToggle input:checked~ul {
+  #menuToggle input:checked ~ ul {
     transform: none;
   }
 
@@ -289,7 +282,6 @@ body {
   }
 }
 
-
 .description-gym p {
   display: block;
   padding: 20px;
@@ -325,7 +317,7 @@ body {
   padding: 1vw;
 }
 
-.moanfit-family h2 {
+.monafit-family h2 {
   font-family: "Rubik Mono One", monospace;
   font-weight: 400;
   font-style: normal;
@@ -340,13 +332,11 @@ body {
   align-items: center;
 }
 
-
 /* Estilos para los controles del formulario */
 .form-control {
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
-
 }
 
 label {
@@ -354,8 +344,8 @@ label {
   margin-bottom: 5px;
 }
 
-input[type=text],
-input[type=password],
+input[type="text"],
+input[type="password"],
 select {
   width: 100%;
   padding: 10px;
@@ -363,7 +353,7 @@ select {
   border-radius: 6px;
 }
 
-input[type=date] {
+input[type="date"] {
   width: 100%;
   padding: 10px;
   border: 1px solid #ffffff;
@@ -378,7 +368,7 @@ input[type=date] {
 }
 
 /* Estilos para el botón */
-button[type=submit] {
+button[type="submit"] {
   width: 100%;
   padding: 10px;
   background-color: #ff0d97;
@@ -389,7 +379,7 @@ button[type=submit] {
   transition: background-color 0.5s ease;
 }
 
-button[type=submit]:hover {
+button[type="submit"]:hover {
   background-color: #ff0d97;
 }
 
@@ -407,7 +397,6 @@ button[type=submit]:hover {
 .form-help a:hover {
   text-decoration: none;
 }
-
 
 /*Estilos NUESTROS ENTRENAMIENTOS SECCIÓN 1*/
 @media (max-width: 500px) {
@@ -430,7 +419,6 @@ button[type=submit]:hover {
         text-align: center;
         color: #ff0d97;
       }
-
     }
 
     p {
@@ -446,7 +434,6 @@ button[type=submit]:hover {
 
   div {
     flex: 1;
-
   }
 
   h1 {
@@ -462,7 +449,6 @@ button[type=submit]:hover {
       text-align: center;
       color: #ff0d97;
     }
-
   }
 
   p {
@@ -477,7 +463,7 @@ button[type=submit]:hover {
   align-items: center;
 }
 
-@media (min-width:901px) {
+@media (min-width: 901px) {
   .musculacion {
     padding: 0;
     margin: 0;
@@ -538,7 +524,6 @@ button[type=submit]:hover {
     align-items: center;
 
     h2 {
-
       font-family: "Montserrat", sans-serif;
       font-optical-sizing: auto;
       font-weight: 900;
@@ -557,7 +542,6 @@ button[type=submit]:hover {
       height: auto;
     }
   }
-
 
   .funcional {
     padding: 0;
@@ -645,12 +629,9 @@ button[type=submit]:hover {
       height: auto;
     }
   }
-
 }
 
-
-
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   .musculacion {
     display: flex;
     justify-content: center;
@@ -754,7 +735,6 @@ button[type=submit]:hover {
     align-items: center;
 
     h2 {
-
       font-family: "Montserrat", sans-serif;
       font-optical-sizing: auto;
       font-weight: 900;
@@ -823,10 +803,9 @@ button[type=submit]:hover {
       height: auto;
     }
   }
-
 }
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
   .musculacion {
     display: flex;
     justify-content: center;
@@ -930,7 +909,6 @@ button[type=submit]:hover {
     align-items: center;
 
     h2 {
-
       font-family: "Montserrat", sans-serif;
       font-optical-sizing: auto;
       font-weight: 900;
@@ -1002,7 +980,6 @@ button[type=submit]:hover {
       height: auto;
     }
   }
-
 }
 
 .peso-libre {
@@ -1037,7 +1014,6 @@ button[type=submit]:hover {
   align-items: center;
 
   h2 {
-
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
@@ -1056,7 +1032,6 @@ button[type=submit]:hover {
     height: auto;
   }
 }
-
 
 .funcional {
   padding: 0;
@@ -1169,12 +1144,16 @@ footer {
 }
 
 #footer-text a:hover {
- color: white;
- transform: scale(1.4);
- transition: 1.2s ease;
+  color: white;
+  transform: scale(1.4);
+  transition: 1.2s ease;
 }
 
-#social img:hover{
+#footer-outro {
+  color: #fff;
+}
+
+#social img:hover {
   transform: scale(1.2);
   transition: 0.5s ease;
 }
@@ -1196,7 +1175,7 @@ footer {
   }
 }
 
-.banner-item{
+.banner-item {
   animation-name: backInLeft; /* Nombre de la animación */
   animation-duration: 1s; /* Duración de la animación en segundos */
 }
@@ -1213,7 +1192,7 @@ footer {
   }
 }
 
-#couple-2{
+#couple-2 {
   animation-name: backInLeft; /* Nombre de la animación */
   animation-duration: 1s; /* Duración de la animación en segundos */
 }
