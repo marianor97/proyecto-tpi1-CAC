@@ -10,10 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Righteous&family=Rubik+Mono+One&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Belanosima:wght@400;600;700&family=Comfortaa:wght@300..700&family=Montserrat:wght@900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Righteous&family=Rubik+Mono+One&family=Space+Grotesk:wght@300..700&family=Tilt+Warp&display=swap" rel="stylesheet">
+    <script src="../script.js" defer></script>
     <!--CSS-->
     <link rel="stylesheet" href="../css/styles.css" />
     <title>¡Asociate!</title>
@@ -51,9 +49,10 @@
         </nav>
       </header>
     </header>
-    <main id="main-form">
-      <section id="from-wrapper">
-        <h2 id="h2-form-a">Asociate</h2>
+    <main>
+      <h2 id="h2-form-a" style="text-align: center;">Asociate</h2>
+      <section id="form-wrapper">
+        
         <form action="#" id="formRegister" method="get" novalidate>
           <div class="form-control">
             <label id="label-form-a" for="firstname">Nombre</label>
@@ -101,13 +100,13 @@
           <div class="form-control">
             <select name="sedes" id="sedes" class="form-select">
               <option value="">¿Qué sede elegís?</option>
-              <option value="AR">Caballito</option>
-              <option value="BO">Palermo</option>
-              <option value="BR">José c. paz</option>
-              <option value="CH">Mendoza</option>
-              <option value="CO">Benavidez</option>
-              <option value="EC">Recoleta</option>
-              <option value="VE">La Boca</option>
+              <option value="">Caballito</option>
+              <option value="">Palermo</option>
+              <option value="">José c. paz</option>
+              <option value="">Mendoza</option>
+              <option value="">Benavidez</option>
+              <option value="">Recoleta</option>
+              <option value="">La Boca</option>
             </select>
           </div>
           <div class="forms-terms">
@@ -118,7 +117,7 @@
               </label>
             </div>
           </div>
-          <button type="submit">Registrate</button>
+          <button type="submit" value="Enviar">Registrate</button>
           <div class="form-help">
             <a href="./sobre-nosotros.html"
               ><strong>¿Necesitas ayuda?</strong></a
@@ -127,6 +126,22 @@
         </form>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div id="social">
+        <a href=""><img src="../img/facebook.ico" alt="" height="40px" width="40px"></a>
+        <a href=""><img src="../img/instagram.ico" alt="" height="40px" width="40px"></a>
+        <a href=""><img src="../img/linkedin.ico" alt="" height="40px" width="40px"></a>
+        <a href=""><img src="../img/whatsapp.ico" alt="" height="40px" width="40px"></a>
+      </div>
+      <div id="footer-text">
+        <div><a href="#">Nosotros</a></div>
+        <div><a href="#">Contacto</a></div>
+        <div><a href="#">Trabaja con nosotros</a></div>
+        <div><a href="#">Sé nuestro franquiciado</a></div>
+        <div><a href="#">Todos los derechos reservados @2024 Monafit</a></div>
+      </div>
+  
+  
+    </footer>
   </body>
 </html>
