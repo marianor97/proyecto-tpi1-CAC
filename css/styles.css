@@ -73,24 +73,6 @@ body {
     color: #ff0d97;
   }
 
-  .navigation-list ul li button {
-    color: rbga(46, 46, 46);
-    border: none;
-    background-color: #ff0d97;
-    font-family: "Comfortaa", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 13px;
-    text-align: center;
-    border-radius: 3vw;
-    padding: 1vw;
-  }
-
-  .navigation-list ul li button a:hover {
-    color: black;
-  }
-
   .banner-desktop {
     display: flex;
     height: 700px;
