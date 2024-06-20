@@ -1,24 +1,36 @@
 
-function validarFormulario() {
-  var nombre = document.getElementById("firstname").value;
-  var apellido = document.getElementById("lastname").value;
-  var email = document.getElementById("email").value;
-  var contraseña = document.getElementById("password").value;
-  var fechaNacimiento = document.getElementById("birthdate").value;
-  var sede = document.getElementById("sedes").value;
-  var aceptarTerminos = document.getElementById("terms").checked;
+const formRegister=document.getElementById("formulario")
+const inputNombre=document.getElementById("nombre");
+const inputEmail=document.getElementById("email");
+const inputTurno=document.getElementById("turno");
+const parrafo=document.getElementById("error");
 
-  if (nombre == "" || apellido == "" || email == "" || contraseña == "" || fechaNacimiento == "" || sede == "" || !aceptarTerminos) {
-      alert("Por favor, complete todos los campos y acepte los términos y condiciones.");
-      return false; // Evita que el formulario se envíe
-  }
+// console.log(inputNombre);
 
-  return true;
+formRegister.addEventListener("submit",e=>{
+e.preventDefault();
+let warning="";
+let valor=false;
+parrafo.innerHTML="";
+let regexEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+if(inputNombre.value.length<3){
+   warning+=`El nombre es corto<br>`
+   valor=true;
 }
+if(!regexEmail.test(inputEmail.value)){
+    warning+=`El email no es valido<br>`
+    valor=true;
+}
+if(inputTurno.value=="default"){
+    warning+=`Elija una opcion <br>`
+    valor=true;
+}
+if(valor){
+    parrafo.innerHTML=warning;
+}else{
+    parrafo.innerHTML="Enviado";
+    formRegister.reset();
+}
+})
 
-document.getElementById("formRegister").addEventListener("submit", function(event) {
-  // Prevenir el envío del formulario si la validación no es correcta
-  if (!validarFormulario()) {
-      event.preventDefault();
-  }
-});
